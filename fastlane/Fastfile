@@ -11,6 +11,8 @@
 #
 
 default_platform(:ios)
+xcode_select "/Applications/Xcode_15.4.app"
+
 
 TEAMID = ENV["TEAMID"]
 GH_PAT = ENV["GH_PAT"]
