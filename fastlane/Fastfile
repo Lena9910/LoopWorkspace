@@ -273,7 +273,7 @@ platform :ios do
 
   desc "Check Certificates and Trigger Workflow for Expired or Missing Certificates"
   lane :check_and_renew_certificates do
-xcode_select "/Applications/Xcode_16.4.app"
+xcode_select "/Applications/Xcode.app"
     setup_ci if ENV['CI']
     ENV["MATCH_READONLY"] = false.to_s
 
